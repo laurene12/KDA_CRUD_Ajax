@@ -1,0 +1,24 @@
+[class*="col"] { 
+    margin-bottom: 20px;
+}
+h1, legend{
+    text-align: center;
+}
+.well {
+    background-color:#CCC;
+    padding: 20px;
+}
+form{
+    margin: 18px 0px 0px 50px;
+}
+thead{
+    text-align: center;
+    font-weight: bold;
+}
+th{
+    text-align: center;
+}
+.tableau{
+    margin: 25px 15px 0px 20px;
+}
+
