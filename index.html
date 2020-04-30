@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapendo Sarl</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="row">
+            <h1>Mapendo Sarl: Gestion de personnel</h1>
+        </header>
+    </div>
+    <div class="ui colomn centered grid">
+        <section class="four wide column">
+            <div class="form">
+                <form class="well ui form">
+                    <legend>Bienvenue à l'enregistrement</legend>
+                    <fieldset>
+                    <div class="id">
+                        <label for="id">ID </label>
+                        <input type="text" id="id" value="">
+                        <span></span>
+                    </div>
+
+                    <div class="nom">
+                        <label for="nom">Nom </label> <br>
+                        <input type="text" id="nom"  value="">
+                        <span></span>
+                    </div>
+
+                    <div class="prenom">
+                        <label for="prenom">Prénom </label> <br>
+                        <input type="text" id="prenom" value="">
+                        <span></span>
+                    </div>
+
+                    <div class="email">
+                        <label for="email">Email </label> <br>
+                        <input type="text" id="email"  value="">
+                        <span></span>
+                    </div>
+
+                    <div class="age">
+                        <label for="age">Age </label> <br>
+                        <input type="text" id="age"  value="">
+                    </div>
+                    <div class="numtel">
+                        <label for="numtel">Numéro Téléphone </label> <br>
+                        <input type="text" id="numtel"  value="">
+                        <span></span>
+                    </div>
+
+                    <div class="poste">
+                        <label for="poste">Poste </label> <br>
+                        <input type="text" id="poste"  value="">
+                        <span></span> 
+                    </div>
+
+                    <div class="statutMarital">
+                        <label for="statutMarital">Statut marital </label> <br>
+                            <select id="statutMarital">
+                                <option value="Marie">Marié</option>
+                                <option value="Divorce">Divorcé</option>
+                                <option value="Celibataire">Celibataire</option>
+                                <option value="Veuf">Veuf</option>
+                            </select>
+                    </div>
+                    <div class="pays">
+                        <label for="pays">Pays d'origine</label>
+                        <input type="text" id="pays"  value="">
+                        <span></span>
+                    </div> <br>
+                    <div class="btn">
+                        <button type="button" id="btnCreer" name="valider" class="btn btn-primary" value="Enregistrer"><span class="glyphicon glyphicon-ok-sign"></span> Ajouter</button>
+                        <button type="button" id="edit-button" value="Modifier" class="btn btn-success" style="display:none;"><span class="glyphicon glyphicon-edit"></span> Mise à jour</button>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <section class="twelve wide column">
+            <div class="tableau">
+                <table class="ui celled table d-flex">
+                    <thead class="hautTableau">
+                    <tr>
+                        <th >ID</th>
+                        <th>Nom</th>
+                        <th>Prenom</th>
+                        <th>Email</th>
+                        <th>Pays</th>
+                        <th>Age</th>
+                        <th>Numéro de Téléphone</th>
+                        <th>Poste</th>
+                        <th>Statut marital</th>
+                        <th id="entete1">Actions</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>  
+            </div>
+        </section>
+    </div>
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>
